@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+title: 一壶漂泊难入喉
+subtitle: 不进步就是退步
+description: 技术博客
+keywords: 
+author: 一壶漂泊难入喉
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -26,7 +26,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -83,3 +83,18 @@ deploy:
   branch: master
   name: chenzhilong
   email: czl4163@163.com
+
+# rss
+feed:
+  limit: false
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+leancloud_visitors:
+  enable: true
+  app_id: mgSLqFBoKaldYfR3hN98WiXN-gzGzoHsz
+  app_key: hzosBth6bLomiPNoB7dS4xnk
