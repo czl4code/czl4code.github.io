@@ -8,7 +8,7 @@ subtitle: 不进步就是退步
 description: 技术博客
 keywords: 
 author: 一壶漂泊难入喉
-language: zh-CN
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -93,8 +93,3 @@ sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
-
-leancloud_visitors:
-  enable: true
-  app_id: mgSLqFBoKaldYfR3hN98WiXN-gzGzoHsz
-  app_key: hzosBth6bLomiPNoB7dS4xnk
